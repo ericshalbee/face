@@ -12,13 +12,15 @@ function App() {
     <div className="min-h-screen bg-gray-50 flex flex-col">
       <Header />
       <main className="flex-grow container mx-auto px-4 py-6 md:py-10">
-        <ScamAlertBanner />
-        <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <HelpCenterSection />
           <ContactChannelsSection />
         </div>
         <SpecializedSupportSection />
         <DynamicFAQ />
+        <div className="mt-8">
+          <ScamAlertBanner />
+        </div>
       </main>
       <Footer />
     </div>
