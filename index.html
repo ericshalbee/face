@@ -29,7 +29,7 @@
     <meta name="twitter:description" content="Need help with Facebook? Get verified support for your account, business, ads, and more from the official Facebook Help Center." />
     <meta name="twitter:image" content="https://fbhelpcenter.netlify.app/og-image.jpg" />
 
-    <!-- Structured Data for Location Targeting -->
+    <!-- Structured Data (no contactPoint) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -37,11 +37,12 @@
       "name": "Facebook Support",
       "url": "https://fbhelpcenter.netlify.app/",
       "logo": "https://fbhelpcenter.netlify.app/favi.jpg",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
-        "areaServed": ["US", "CA"],
-      }
+      "areaServed": ["US", "CA"],
+      "sameAs": [
+        "https://www.facebook.com",
+        "https://www.instagram.com",
+        "https://www.meta.com"
+      ]
     }
     </script>
   </head>
