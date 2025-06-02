@@ -38,7 +38,7 @@ export const ContactChannelsSection: React.FC = () => {
           title="Meta Verified Support"
           description="Priority support for Meta Verified subscribers"
           linkText="Learn More"
-          linkUrl="https://www.facebook.com/help/meta-verified"
+          linkUrl="https://www.facebook.com/help/178774494481770"
           verified
         />
       </div>
